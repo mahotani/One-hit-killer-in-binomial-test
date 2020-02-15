@@ -53,3 +53,12 @@
 といいます。  
 ベルヌーイ試行では、一般に2つの結果のうち一方を「成功」とし、確率変数Xがとる値を「1」。もう一方を「失敗」とし、Xがとる値を「0」とします。  
 要は起こったら嬉しい方を1、嫌な方を0にしようということです。  
+成功した時の確率をpとして式で表すと、成功時は・・・
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;1)&space;=&space;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;1)&space;=&space;p" title="P(X = 1) = p" /></a>
+
+失敗時は・・・
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;1&space;-&space;p" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;1&space;-&space;p" title="P(X = 0) = 1 - p" /></a>
+
+となります。
