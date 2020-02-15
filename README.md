@@ -5,9 +5,7 @@
 主な一撃必殺技
 ---
 
-<img width="300" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74586461-e63fa280-502a-11ea-990f-05620ca3d264.png">
-
-<img width="300" alt="one-hit_kill2" src="https://user-images.githubusercontent.com/39772824/74586381-3a965280-502a-11ea-80de-122b7919d1e2.png">
+<img width="300" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74586461-e63fa280-502a-11ea-990f-05620ca3d264.png"><img width="300" alt="one-hit_kill2" src="https://user-images.githubusercontent.com/39772824/74586381-3a965280-502a-11ea-80de-122b7919d1e2.png">
 
 - ハサミギロチン
 - つのドリル
