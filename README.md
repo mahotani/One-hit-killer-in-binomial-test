@@ -76,9 +76,13 @@
 
 一撃必殺技の場合は、当たる場合が成功の方になるので、当たる確率は・・・
 
+<img width="500" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74586377-3833f880-502a-11ea-88be-db74f597fe0a.png">
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;1)&space;=&space;0.3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;1)&space;=&space;0.3" title="P(X = 1) = 0.3" /></a>
 
 当たらない確率は・・・
+
+<img width="500" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74589029-11cf8680-5045-11ea-8b94-1cdc16abc445.png">
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;0.7" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;0.7" title="P(X = 0) = 0.7" /></a>
 
