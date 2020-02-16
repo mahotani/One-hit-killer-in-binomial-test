@@ -140,7 +140,21 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 
 ## 二項検定してみよう
 
-まず以下の式にしたがって検定統計量というものを算出します。  
+まず、有意水準を決めます。  
+有意水準とは、統計的仮説検定において誤りを起こしてしまう確率のことです。
+一般的に
+<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha" title="\alpha" /></a>
+で表し、
+<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha&space;=&space;0.05" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;0.05" title="\alpha = 0.05" /></a>
+もしくは
+<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha&space;=&space;0.01" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;0.01" title="\alpha = 0.01" /></a>
+と設定することが多いです。
+
+最近のトレンドは
+<a href="https://www.codecogs.com/eqnedit.php?latex=\alpha&space;=&space;0.01" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;0.01" title="\alpha = 0.01" /></a>
+なので今回も0.01に設定して話を進めていくことにします。
+
+次に以下の式にしたがって検定統計量というものを算出します。  
 検定統計量は検定するための値と思っていただければ良いです。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}" title="z = \frac{X - np}{\sqrt{np(1 - p)}}" /></a>
