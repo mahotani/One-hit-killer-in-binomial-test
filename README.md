@@ -84,7 +84,7 @@
 
 <img width="300" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74589029-11cf8680-5045-11ea-8b94-1cdc16abc445.png">
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;1&space;-&space;0.7&space;=&space;0.3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;1&space;-&space;0.7&space;=&space;0.3" title="P(X = 0) = 1 - 0.7 = 0.3" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;1&space;-&space;0.3&space;=&space;0.7" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;1&space;-&space;0.3&space;=&space;0.7" title="P(X = 0) = 1 - 0.3 = 0.7" /></a>
 
 と表すことができます。  
 
