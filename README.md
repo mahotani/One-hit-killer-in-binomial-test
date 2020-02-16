@@ -31,7 +31,7 @@
 
 ## 本当に珍しい事象なの？
 
-3ターンで3タテされる確率は2.7%と出ましたが、これは本当に珍しい確率なのでしょうか？  
+3ターンで3タテされる確率は2.7%と出ましたが、これは本当に珍しい事象なのでしょうか？  
 試しに二項検定をしてみましょう。  
 
 ## 二項検定
@@ -89,3 +89,12 @@
 と表すことができます。  
 
 ### 二項分布
+
+ベルヌーイ試行を複数回行い、成功した回数Xが従う分布のことを
+**二項分布**
+といいます。
+
+n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の式で表します。
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;k)&space;=&space;{}_n&space;C&space;_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\&space;\&space;\&space;(k&space;=&space;0,&space;1,&space;2,&space;\cdots&space;,&space;n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;k)&space;=&space;{}_n&space;C&space;_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\&space;\&space;\&space;(k&space;=&space;0,&space;1,&space;2,&space;\cdots&space;,&space;n)" title="P(X = k) = {}_n C _k p^k (1 - p)^{(n - k)} \ \ \ (k = 0, 1, 2, \cdots , n)" /></a>
+
