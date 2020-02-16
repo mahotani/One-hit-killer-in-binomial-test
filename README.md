@@ -185,3 +185,18 @@ Xは対象としている確率変数が入ります。
 
 青い線よりも左に赤い線があった場合はちょっとやばいんじゃないか？と思われる事象だったのですが、今回はそこまで珍しい事象ではないという結果になりました。  
 つまり、一撃必殺技で3ターンで3タテされてもお使いのゲームは正常です。
+
+## 余談：何回連続で当たればバグを疑える？
+
+3回だと大したことがないということがわかりましたが、果たして何回連続で当たればおかしい事象であると言えるのだろうかということが気になります。
+
+以下の式を解くとわかります。
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{0.3^n&space;-&space;0.3n}{\sqrt{0.27n}}&space;<&space;-2.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{0.3^n&space;-&space;0.3n}{\sqrt{0.27n}}&space;<&space;-2.25" title="\frac{0.3^n - 0.3n}{\sqrt{0.27n}} < -2.25" /></a>
+
+これをnについて解くと・・・
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=n&space;>&space;15.1875" target="_blank"><img src="https://latex.codecogs.com/gif.latex?n&space;>&space;15.1875" title="n > 15.1875" /></a>
+
+となります。  
+つまり、16回連続で当たってしまった場合はお使いのゲームは正常ではないかもしれません。
