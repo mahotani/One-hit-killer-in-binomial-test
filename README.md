@@ -26,7 +26,7 @@
 となります。  
 
 2.7%なら、まぁなくはないかなぁ・・・程度のものです。  
-**デレステで星５を一連で引き当てるようなもの**
+**デレステでSSRを一連で引き当てるようなもの**
 です。(2020年2月現在で3%)  
 
 ## 本当に珍しい事象なの？
@@ -74,7 +74,7 @@
 
 となります。
 
-一撃必殺技の場合は、当たる場合が成功の方になるので、当たる確率は・・・
+一撃必殺技の場合は、当たる場合が成功の方になり、当たる確率は30%なので・・・
 
 <img width="300" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74586377-3833f880-502a-11ea-88be-db74f597fe0a.png">
 
@@ -87,3 +87,5 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;0.7" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;0.7" title="P(X = 0) = 0.7" /></a>
 
 と表すことができます。  
+
+### 二項分布
