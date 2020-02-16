@@ -170,3 +170,18 @@ Xは対象としている確率変数が入ります。
 実際に当てはめてみましょう。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;3&space;\times&space;0.3}{\sqrt{3&space;\times&space;0.3&space;\times&space;(1&space;-&space;0.3)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;0.9}{\sqrt{0.63}}&space;\\&space;\\&space;=&space;-1.3857&space;\cdots" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;3&space;\times&space;0.3}{\sqrt{3&space;\times&space;0.3&space;\times&space;(1&space;-&space;0.3)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;0.9}{\sqrt{0.63}}&space;\\&space;\\&space;=&space;-1.3857&space;\cdots" title="z = \frac{X - np}{\sqrt{np(1 - p)}} \\ \\ = \frac{0.027 - 3 \times 0.3}{\sqrt{3 \times 0.3 \times (1 - 0.3)}} \\ \\ = \frac{0.027 - 0.9}{\sqrt{0.63}} \\ \\ = -1.3857 \cdots" /></a>
+
+二項検定は標準正規分布の元、検定を行います。
+
+<img width="600" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74603037-667d0b00-50f2-11ea-8f1f-729af970b9e4.png">
+
+この分布は積分すると１になるのですが、この分布内のどれぐらい端に当たるのかなぁというのを見るのが統計的検定です。  
+
+今回の事象をこの分布に当てはめていくと以下の通りになります。
+
+<img width="600" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74603369-2a4ba980-50f6-11ea-9676-fb02742eb8a0.png">
+
+上の図の青い線(-2.25)の部分が先に決めた有意水準に対応しており、赤い線(-1.3857)の部分が検定統計量に対応しています。  
+
+青い線よりも左に赤い線があった場合はちょっとやばいんじゃないか？と思われる事象だったのですが、今回はそこまで珍しい事象ではないという結果になりました。  
+つまり、一撃必殺技で3ターンで3タテされてもお使いのゲームは正常です。
