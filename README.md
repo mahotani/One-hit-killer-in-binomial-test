@@ -122,3 +122,17 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 コロモゴロフの確率の公理より当たり前のことですね。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" title="P(X = 0) + P(X = 1) + P(X = 2) + P(X = 3) \\ = 0.343 + 0.441 + 0.189 + 0.027 \\ = 1.0" /></a>
+
+### 平均と分散は？
+
+試行回数をn、成功確率をpとした時の二項分布の平均と分散はそれぞれ以下の通りになる。
+
+**平均**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X]&space;=&space;np" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]&space;=&space;np" title="E[X] = np" /></a>
+
+**分散**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;=&space;np&space;(1&space;-&space;p)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;=&space;np&space;(1&space;-&space;p)" title="V[X] = E[X^2] - \{ E[X] \}^2 \\ = \{ n(n - 1)p^2 + np \} - (np)^2 \\ = np (1 - p)" /></a>
+
+細かい証明等々は別ページに記載します。
