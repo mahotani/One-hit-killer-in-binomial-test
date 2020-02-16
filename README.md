@@ -133,6 +133,6 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 
 **分散**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;=&space;np&space;(1&space;-&space;p)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;=&space;np&space;(1&space;-&space;p)" title="V[X] = E[X^2] - \{ E[X] \}^2 \\ = \{ n(n - 1)p^2 + np \} - (np)^2 \\ = np (1 - p)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;\\&space;=&space;np&space;(1&space;-&space;p)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;\\&space;=&space;np&space;(1&space;-&space;p)" title="V[X] = E[X^2] - \{ E[X] \}^2 \\ \\ = \{ n(n - 1)p^2 + np \} - (np)^2 \\ \\ = np (1 - p)" /></a>
 
 細かい証明等々は別ページに記載します。
