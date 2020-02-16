@@ -190,7 +190,7 @@ Xは対象としている確率変数が入ります。
 
 3回だと大したことがないということがわかりましたが、果たして何回連続で当たればおかしい事象であると言えるのだろうかということが気になります。
 
-以下の式を解くとわかります。
+上記の図より検定統計量が-2.25を下回れば良いので、以下の式を解くとわかります。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{0.3^n&space;-&space;0.3n}{\sqrt{0.27n}}&space;<&space;-2.25" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{0.3^n&space;-&space;0.3n}{\sqrt{0.27n}}&space;<&space;-2.25" title="\frac{0.3^n - 0.3n}{\sqrt{0.27n}} < -2.25" /></a>
 
