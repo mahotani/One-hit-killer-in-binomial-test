@@ -98,4 +98,4 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;k)&space;=&space;{}_n&space;C&space;_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\&space;\&space;\&space;(k&space;=&space;0,&space;1,&space;2,&space;\cdots&space;,&space;n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;k)&space;=&space;{}_n&space;C&space;_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\&space;\&space;\&space;(k&space;=&space;0,&space;1,&space;2,&space;\cdots&space;,&space;n)" title="P(X = k) = {}_n C _k p^k (1 - p)^{(n - k)} \ \ \ (k = 0, 1, 2, \cdots , n)" /></a>
 
-<img width="700" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74601341-7d1a6680-50e0-11ea-9f8c-f3db332f7c54.png">
+<img width="600" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74601341-7d1a6680-50e0-11ea-9f8c-f3db332f7c54.png">
