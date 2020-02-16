@@ -173,7 +173,7 @@ Xは対象としている確率変数が入ります。
 
 二項検定は標準正規分布の元、検定を行います。
 
-<img width="600" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74603037-667d0b00-50f2-11ea-8f1f-729af970b9e4.png">
+<img width="400" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74603037-667d0b00-50f2-11ea-8f1f-729af970b9e4.png">
 
 この分布は積分すると１になるのですが、この分布内のどれぐらい端に当たるのかなぁというのを見るのが統計的検定です。  
 
