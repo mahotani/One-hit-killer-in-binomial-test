@@ -88,7 +88,7 @@
 
 と表すことができます。  
 
-### 二項分布
+### 本題の二項分布とは・・・
 
 ベルヌーイ試行を複数回行い、成功した回数Xが従う分布のことを
 **二項分布**
@@ -99,3 +99,21 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;k)&space;=&space;{}_n&space;C&space;_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\&space;\&space;\&space;(k&space;=&space;0,&space;1,&space;2,&space;\cdots&space;,&space;n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;k)&space;=&space;{}_n&space;C&space;_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\&space;\&space;\&space;(k&space;=&space;0,&space;1,&space;2,&space;\cdots&space;,&space;n)" title="P(X = k) = {}_n C _k p^k (1 - p)^{(n - k)} \ \ \ (k = 0, 1, 2, \cdots , n)" /></a>
 
 <img width="600" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74601341-7d1a6680-50e0-11ea-9f8c-f3db332f7c54.png">
+
+つまり、3回一撃必殺技を放って、0回当たる確率〜3回当たる確率は・・・
+
+**0回**
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;{}_3&space;C_0&space;0.3^0&space;\times&space;0.7^3&space;=&space;0.343" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;{}_3&space;C_0&space;0.3^0&space;\times&space;0.7^3&space;=&space;0.343" title="P(X = 0) = {}_3 C_0 0.3^0 \times 0.7^3 = 0.343" /></a>
+
+**1回**
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;1)&space;=&space;{}_3&space;C_1&space;0.3^1&space;\times&space;0.7^2&space;=&space;0.441" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;1)&space;=&space;{}_3&space;C_1&space;0.3^1&space;\times&space;0.7^2&space;=&space;0.441" title="P(X = 1) = {}_3 C_1 0.3^1 \times 0.7^2 = 0.441" /></a>
+
+**2回**
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;2)&space;=&space;{}_3&space;C_2&space;0.3^2&space;\times&space;0.7^1&space;=&space;0.189" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;2)&space;=&space;{}_3&space;C_2&space;0.3^2&space;\times&space;0.7^1&space;=&space;0.189" title="P(X = 2) = {}_3 C_2 0.3^2 \times 0.7^1 = 0.189" /></a>
+
+**3回**
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" title="P(X = 3) = {}_3 C_3 0.3^3 \times 0.7^0 = 0.027" /></a>
+
+ちなみに、全ての事象の確率を足し合わせると1になります。
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" title="P(X = 0) + P(X = 1) + P(X = 2) + P(X = 3) \\ = 0.343 + 0.441 + 0.189 + 0.027 \\ = 1.0" /></a>
