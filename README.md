@@ -119,9 +119,10 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" title="P(X = 3) = {}_3 C_3 0.3^3 \times 0.7^0 = 0.027" /></a>
 
 一応、全ての事象の確率を足し合わせると1になります。  
-コロモゴロフの確率の公理より当たり前のことですね。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" title="P(X = 0) + P(X = 1) + P(X = 2) + P(X = 3) \\ = 0.343 + 0.441 + 0.189 + 0.027 \\ = 1.0" /></a>
+
+コロモゴロフの確率の公理より当たり前のことですね。
 
 ### 平均と分散は？
 
@@ -136,3 +137,22 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 <a href="https://www.codecogs.com/eqnedit.php?latex=V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;\\&space;=&space;np&space;(1&space;-&space;p)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V[X]&space;=&space;E[X^2]&space;-&space;\{&space;E[X]&space;\}^2&space;\\&space;\\&space;=&space;\{&space;n(n&space;-&space;1)p^2&space;&plus;&space;np&space;\}&space;-&space;(np)^2&space;\\&space;\\&space;=&space;np&space;(1&space;-&space;p)" title="V[X] = E[X^2] - \{ E[X] \}^2 \\ \\ = \{ n(n - 1)p^2 + np \} - (np)^2 \\ \\ = np (1 - p)" /></a>
 
 細かい証明等々は別ページに記載します。
+
+## 二項検定してみよう
+
+まず以下の式にしたがって検定統計量というものを算出します。  
+検定統計量は検定するための値と思っていただければ良いです。
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}" title="z = \frac{X - np}{\sqrt{np(1 - p)}}" /></a>
+
+分子のnpは先ほどの平均で、分母の根号の中は分散と同じです。  
+Xは対象としている確率変数が入ります。  
+今回の場合は、
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" title="P(X = 3) = {}_3 C_3 0.3^3 \times 0.7^0 = 0.027" /></a>
+
+なので0.027が入ります。
+
+実際に当てはめてみましょう。
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;3&space;\times&space;0.3}{\sqrt{3&space;\times&space;0.3&space;\times&space;(1&space;-&space;0.3)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;0.9}{\sqrt{0.63}}&space;\\&space;\\&space;=&space;-1.3857&space;\cdots" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\frac{X&space;-&space;np}{\sqrt{np(1&space;-&space;p)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;3&space;\times&space;0.3}{\sqrt{3&space;\times&space;0.3&space;\times&space;(1&space;-&space;0.3)}}&space;\\&space;\\&space;=&space;\frac{0.027&space;-&space;0.9}{\sqrt{0.63}}&space;\\&space;\\&space;=&space;-1.3857&space;\cdots" title="z = \frac{X - np}{\sqrt{np(1 - p)}} \\ \\ = \frac{0.027 - 3 \times 0.3}{\sqrt{3 \times 0.3 \times (1 - 0.3)}} \\ \\ = \frac{0.027 - 0.9}{\sqrt{0.63}} \\ \\ = -1.3857 \cdots" /></a>
