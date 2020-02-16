@@ -103,17 +103,22 @@ n回のベルヌーイ試行を行い、k回成功する(X = k)確率を次の�
 つまり、3回一撃必殺技を放って、0回当たる確率〜3回当たる確率は・・・
 
 **0回**
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;=&space;{}_3&space;C_0&space;0.3^0&space;\times&space;0.7^3&space;=&space;0.343" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;=&space;{}_3&space;C_0&space;0.3^0&space;\times&space;0.7^3&space;=&space;0.343" title="P(X = 0) = {}_3 C_0 0.3^0 \times 0.7^3 = 0.343" /></a>
 
 **1回**
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;1)&space;=&space;{}_3&space;C_1&space;0.3^1&space;\times&space;0.7^2&space;=&space;0.441" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;1)&space;=&space;{}_3&space;C_1&space;0.3^1&space;\times&space;0.7^2&space;=&space;0.441" title="P(X = 1) = {}_3 C_1 0.3^1 \times 0.7^2 = 0.441" /></a>
 
 **2回**
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;2)&space;=&space;{}_3&space;C_2&space;0.3^2&space;\times&space;0.7^1&space;=&space;0.189" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;2)&space;=&space;{}_3&space;C_2&space;0.3^2&space;\times&space;0.7^1&space;=&space;0.189" title="P(X = 2) = {}_3 C_2 0.3^2 \times 0.7^1 = 0.189" /></a>
 
 **3回**
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;3)&space;=&space;{}_3&space;C_3&space;0.3^3&space;\times&space;0.7^0&space;=&space;0.027" title="P(X = 3) = {}_3 C_3 0.3^3 \times 0.7^0 = 0.027" /></a>
 
-ちなみに、全ての事象の確率を足し合わせると1になります。
+ちなみに、全ての事象の確率を足し合わせると1になります。  
+コロモゴロフの確率の公理より当たり前のことですね。
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(X&space;=&space;0)&space;&plus;&space;P(X&space;=&space;1)&space;&plus;&space;P(X&space;=&space;2)&space;&plus;&space;P(X&space;=&space;3)&space;\\&space;=&space;0.343&space;&plus;&space;0.441&space;&plus;&space;0.189&space;&plus;&space;0.027&space;\\&space;=&space;1.0" title="P(X = 0) + P(X = 1) + P(X = 2) + P(X = 3) \\ = 0.343 + 0.441 + 0.189 + 0.027 \\ = 1.0" /></a>
