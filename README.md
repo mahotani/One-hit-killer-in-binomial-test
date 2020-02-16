@@ -21,7 +21,7 @@
 
 とりあえず、単純に3ターンで3タテされる（3回一撃必殺技を打たれて、3回とも当てられてしまった）確率を求めてみましょう。  
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=0.3&space;\times&space;0.3&space;\times&space;0.3&space;=&space;0.027&space;\&space;(=&space;2.7\%)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?0.3&space;\times&space;0.3&space;\times&space;0.3&space;=&space;0.027&space;\&space;(=&space;2.7\%)" title="0.3 \times 0.3 \times 0.3 = 0.027 \ (= 2.7\%)" /></a>
+<img width="300" alt="one-hit_kill1" src="https://user-images.githubusercontent.com/39772824/74602273-49dcd500-50ea-11ea-8be6-96720a35d609.png">
 
 となります。  
 
