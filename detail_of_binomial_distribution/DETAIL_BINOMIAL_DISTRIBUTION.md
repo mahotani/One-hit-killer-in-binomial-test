@@ -5,7 +5,7 @@
 二項分布は離散型確率変数です。  
 なので、平均を求めるには、
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=E(X)&space;=&space;\sum^n_{k&space;=&space;1}&space;x_k&space;\times&space;f(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E(X)&space;=&space;\sum^n_{k&space;=&space;1}&space;x_k&space;\times&space;f(X)" title="E(X) = \sum^n_{k = 1} x_k \times f(X)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X]&space;=&space;\sum^n_{k&space;=&space;0}&space;x_k&space;\times&space;f(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]&space;=&space;\sum^n_{k&space;=&space;0}&space;x_k&space;\times&space;f(X)" title="E[X] = \sum^n_{k = 0} x_k \times f(X)" /></a>
 
 の式に当てはめていきましょう。
 
@@ -66,4 +66,11 @@ kのあたりをすべて-1すると、
 <a href="https://www.codecogs.com/eqnedit.php?latex=E[X]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]" title="E[X]" /></a>
 は平均で求めたので、
 <a href="https://www.codecogs.com/eqnedit.php?latex=E[X^2]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X^2]" title="E[X^2]" /></a>
-の方を求めていきましょう。
+の方を求めていきましょう。  
+要領は先ほど平均を求めた時と似ています。
+
+まず、
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X^2]&space;=&space;\sum^n_{k&space;=&space;0}&space;x_k^2&space;\times&space;f(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X^2]&space;=&space;\sum^n_{k&space;=&space;0}&space;x_k^2&space;\times&space;f(X)" title="E[X^2] = \sum^n_{k = 0} x_k^2 \times f(X)" /></a>
+
+に代入していきますが平均の時と大体同じです。
