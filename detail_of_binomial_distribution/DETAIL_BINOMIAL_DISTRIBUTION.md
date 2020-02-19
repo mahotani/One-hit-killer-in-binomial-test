@@ -55,3 +55,15 @@ kのあたりをすべて-1すると、
 
 以上より、
 <a href="https://www.codecogs.com/eqnedit.php?latex=E(X)&space;=&space;np" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E(X)&space;=&space;np" title="E(X) = np" /></a>
+
+## 分散
+
+分散は、
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=V[X]&space;=&space;E[X^2]&space;-&space;\left(&space;E[X]&space;\right)&space;^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V[X]&space;=&space;E[X^2]&space;-&space;\left(&space;E[X]&space;\right)&space;^2" title="V[X] = E[X^2] - \left( E[X] \right) ^2" /></a>
+
+の式で求められる。  
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]" title="E[X]" /></a>
+は平均で求めたので、
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X^2]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X^2]" title="E[X^2]" /></a>
+の方を求めていきましょう。
