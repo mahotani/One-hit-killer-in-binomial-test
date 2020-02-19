@@ -90,5 +90,6 @@ kのあたりをすべて-1すると、
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\because" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\because" title="\because" /></a>
 平均より、
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=E[X]&space;=&space;\sum^n_{k=0}&space;k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;=&space;np" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]&space;=&space;\sum^n_{k=0}&space;k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;=&space;np" title="E[X] = \sum^n_{k=0} k p^k (1 - p)^{(n - k)} = np" /></a>
 
