@@ -62,7 +62,7 @@ kのあたりをすべて-1すると、
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=V[X]&space;=&space;E[X^2]&space;-&space;\left(&space;E[X]&space;\right)&space;^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V[X]&space;=&space;E[X^2]&space;-&space;\left(&space;E[X]&space;\right)&space;^2" title="V[X] = E[X^2] - \left( E[X] \right) ^2" /></a>
 
-の式で求められる。  
+の式で求められます。  
 <a href="https://www.codecogs.com/eqnedit.php?latex=E[X]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]" title="E[X]" /></a>
 は平均で求めたので、
 <a href="https://www.codecogs.com/eqnedit.php?latex=E[X^2]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X^2]" title="E[X^2]" /></a>
@@ -73,4 +73,22 @@ kのあたりをすべて-1すると、
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=E[X^2]&space;=&space;\sum^n_{k&space;=&space;0}&space;x_k^2&space;\times&space;f(X)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X^2]&space;=&space;\sum^n_{k&space;=&space;0}&space;x_k^2&space;\times&space;f(X)" title="E[X^2] = \sum^n_{k = 0} x_k^2 \times f(X)" /></a>
 
-に代入していきますが平均の時と大体同じです。
+に代入していきますが平均の時と大体同じです。  
+平均と変わったのは、
+<a href="https://www.codecogs.com/eqnedit.php?latex=x_k^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_k^2" title="x_k^2" /></a>
+の部分だけで、ここは
+<a href="https://www.codecogs.com/eqnedit.php?latex=k^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k^2" title="k^2" /></a>
+を入れれば良いだけです。
+
+代入していきましょう。
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X^2]&space;\\&space;=&space;\sum^n_{k&space;=&space;0}&space;k^2&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\\&space;=&space;\sum^n_{k&space;=&space;0}&space;(k(k&space;-&space;1)&space;&plus;&space;k)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X^2]&space;\\&space;=&space;\sum^n_{k&space;=&space;0}&space;k^2&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\\&space;=&space;\sum^n_{k&space;=&space;0}&space;(k(k&space;-&space;1)&space;&plus;&space;k)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;\\" title="E[X^2] \\ = \sum^n_{k = 0} k^2 {}_n C_k p^k (1 - p)^{(n - k)} \\ = \sum^n_{k = 0} (k(k - 1) + k) {}_n C_k p^k (1 - p)^{(n - k)} \\" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\because&space;k^2&space;=&space;k^2&space;-&space;k&space;&plus;&space;k&space;=&space;k(k&space;-&space;1)&space;&plus;&space;k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\because&space;k^2&space;=&space;k^2&space;-&space;k&space;&plus;&space;k&space;=&space;k(k&space;-&space;1)&space;&plus;&space;k" title="\because k^2 = k^2 - k + k = k(k - 1) + k" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex==&space;\sum^n_{k=0}&space;k(k&space;-&space;1)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;&plus;&space;\sum^n_{k&space;=&space;0}&space;k&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?=&space;\sum^n_{k=0}&space;k(k&space;-&space;1)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;&plus;&space;\sum^n_{k&space;=&space;0}&space;k&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}" title="= \sum^n_{k=0} k(k - 1) {}_n C_k p^k (1 - p)^{(n - k)} + \sum^n_{k = 0} k {}_n C_k p^k (1 - p)^{(n - k)}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\because" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\because" title="\because" /></a>
+平均より、
+<a href="https://www.codecogs.com/eqnedit.php?latex=E[X]&space;=&space;\sum^n_{k=0}&space;k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;=&space;np" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E[X]&space;=&space;\sum^n_{k=0}&space;k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;=&space;np" title="E[X] = \sum^n_{k=0} k p^k (1 - p)^{(n - k)} = np" /></a>
+
