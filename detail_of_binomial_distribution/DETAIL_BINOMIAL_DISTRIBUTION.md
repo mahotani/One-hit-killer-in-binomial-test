@@ -88,6 +88,8 @@ kのあたりをすべて-1すると、
 
 <a href="https://www.codecogs.com/eqnedit.php?latex==&space;\sum^n_{k=0}&space;k(k&space;-&space;1)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;&plus;&space;\sum^n_{k&space;=&space;0}&space;k&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?=&space;\sum^n_{k=0}&space;k(k&space;-&space;1)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;&plus;&space;\sum^n_{k&space;=&space;0}&space;k&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}" title="= \sum^n_{k=0} k(k - 1) {}_n C_k p^k (1 - p)^{(n - k)} + \sum^n_{k = 0} k {}_n C_k p^k (1 - p)^{(n - k)}" /></a>
 
+<a href="https://www.codecogs.com/eqnedit.php?latex==&space;\sum^2_{k&space;=&space;0}&space;k(k&space;-&space;1)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;&plus;&space;np" target="_blank"><img src="https://latex.codecogs.com/gif.latex?=&space;\sum^2_{k&space;=&space;0}&space;k(k&space;-&space;1)&space;{}_n&space;C_k&space;p^k&space;(1&space;-&space;p)^{(n&space;-&space;k)}&space;&plus;&space;np" title="= \sum^2_{k = 0} k(k - 1) {}_n C_k p^k (1 - p)^{(n - k)} + np" /></a>
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\because" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\because" title="\because" /></a>
 平均より、
 
